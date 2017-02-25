@@ -1,0 +1,462 @@
+body {
+    font-family: "Lato", sans-serif;
+ 
+}
+
+.classarrow{
+padding-left: 20px;
+
+}
+
+.back-img{
+
+ background-image: url("../image1/home.png");
+ background-repeat: no-repeat;
+
+
+}
+.navclass{
+  border:0.5px solid grey;
+
+
+}
+
+.col-xs-12{
+
+  margin-top: 10px;
+  width: 100%;
+}
+
+.listview{
+  padding-left: 75px;
+}
+.textview{
+  padding-left: 40px;
+}
+
+.colpad{
+padding-left: 65px;
+
+}
+.example-animate-container {
+  background:white;
+  border:1px solid black;
+  list-style:none;
+  margin:0;
+  padding:0 10px;
+}
+.animate-repeat {
+  line-height:30px;
+  list-style:none;
+  box-sizing:border-box;
+}
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+  transition:all linear 0.5s;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+  opacity:0;
+  max-height:0;
+}
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+  opacity:1;
+  max-height:30px;
+}
+
+/*dddd*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: grey;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.menu-bar1{
+   font-size:30px;
+   cursor:pointer;  
+   color: white;
+   font-size: 22px; 
+}
+.logo2{
+    background-color: black;
+    color: white;
+     width: 100%; 
+     padding-left: 20px;
+}
+.btnstyle{
+    background-color: #81AEB3;
+    color: black;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.bath1{
+     background-color: #81AEB3;
+    color: black;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.tiles1{
+    background-color: #81AEB3;
+    color: black;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2px; 
+}
+
+.wellness1{
+     background-color: #81AEB3;
+    color: black;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.pergo1{
+     background-color: #81AEB3;
+    color: black;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 2px;
+    font-size: 25px;
+}
+.btn-original-laminate1{
+     background-color: #81AEB3;
+    color: black;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.faucets1{
+    background-color: gray;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+}
+.shower1{
+    background-color: gray;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.water-heater1{
+  background-color: gray;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-top: 2px;
+}
+.sanitary1{
+  background-color: gray;
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.img1{
+  
+}
+.img2{
+
+}
+.hr1{
+  border: 1px solid gray; margin-top: 4%;
+}
+
+
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1500px){
+  .menu-bar1{
+    visibility: hidden;
+  }
+  .navbar-inverse{
+    visibility: hidden;
+  }
+.logo2{
+visibility: hidden;
+}
+
+.sidenav{
+    visibility: hidden;
+}
+.wooden1{
+    visibility: hidden;
+}
+
+.bath1{
+    visibility: hidden;
+}
+.tiles1{
+    visibility: hidden;
+}
+.wellness1{
+    visibility: hidden;
+}
+.pergo1{
+    visibility: hidden;
+}
+.btn-original-laminate1{
+  visibility: hidden;
+}
+.faucets1{
+  visibility: hidden;
+}
+.shower1{
+  visibility: hidden;
+}
+.water-heater1{
+  visibility: hidden;
+}
+
+.sanitary1{
+  visibility: hidden;
+}
+.img1{
+  visibility: hidden;
+}
+.hr1{
+  visibility: hidden;
+}
+.img2{
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+  .menu-bar1{
+    visibility: hidden;
+  }
+.navbar-inverse{
+    visibility: hidden;
+  }
+  .logo2{
+visibility: hidden;
+}
+.sidenav{
+    visibility: hidden;
+}
+.wooden1{
+    visibility: hidden;
+}
+.bath1{
+    visibility: hidden;
+}
+.tiles1{
+    visibility: hidden;
+}
+.wellness1{
+    visibility: hidden;
+}
+.pergo1{
+    visibility: hidden;: 
+}
+.btn-original-laminate1{
+  visibility: hidden;
+}
+.faucets1{
+  visibility: hidden;
+}
+.shower1{
+  visibility: hidden;
+}
+
+.water-heater1{
+  visibility: hidden;
+}
+
+.sanitary1{
+  visibility: hidden;
+}
+
+.img1{
+  visibility: hidden;
+}
+.hr1{
+  visibility: hidden;
+}
+.img2{
+  visibility: hidden;
+}
+
+
+
+
+
+
+}
+@media only screen and (min-width:480px) and (max-width: 767px){
+  .menu-bar1{
+    visibility: visible;
+  }
+
+.logo2{
+visibility: visible;
+}
+.sidenav{
+    visibility: visible;
+}
+
+.wooden1{
+    visibility: visible;
+}
+.bath1{
+    visibility: visible;
+}
+.tiles1{
+    visibility: visible;
+}
+.wellness1{
+    visibility: visible;
+}
+.pergo1{
+    visibility: visible;
+}
+.btn-original-laminate1{
+  visibility: visible;
+}
+.faucets1{
+  visibility: visible;
+}
+
+.shower1{
+  visibility: 
+}
+.water-heater1{
+  visibility: 
+}
+
+.sanitary1{
+  visibility: visible;
+}
+
+.hr1{
+  visibility: visible;
+}
+
+.img2{
+  visibility: visible;
+}
+
+
+
+
+
+}
+@media only screen and (min-width:320px) and (max-width: 479px){
+  
+.menu-bar1{
+    visibility: visible;
+  }
+  .logo2{
+visibility: visible;
+}
+.sidenav{
+    visibility: visible;
+}
+.wooden1{
+    visibility: visible;
+}
+
+.bath1{
+    visibility: 
+}
+
+.tiles1{
+    visibility: visible;
+}
+.wellness1{
+    visibility: visible;
+}
+.pergo1{
+    visibility: visible;
+}
+.btn-original-laminate1{
+  visibility: visible;
+}
+.faucets1{
+  visibility: visible;
+}
+
+.shower1{
+  visibility: visible;
+}
+.water-heater1{
+  visibility: visible;
+}
+.sanitary1{
+  visibility: visible;
+}
+
+
+.hr1{
+  visibility: visible;
+}
+
+.img2{
+  visibility: visible;
+}
+
+
+
+
+
+
+
+}
+

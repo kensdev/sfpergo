@@ -1,0 +1,18 @@
+<div class ="row listview " >
+
+		<h3 class="textview">Products({{products.length}})</h2>
+		<input class="textview" type="search" ng-model="q" placeholder="filter products..." aria-label="filter products" />
+
+		<div class="col-xs-12" ng-repeat="product in products | filter:q as results">
+
+		<a href="\{{ producpage }}"> <img src="img/{{product.image}}" alt="{{ product.name }}" style="width: 70%;"></a>
+		<a href="\{{ producpage }}"><p class="text-center">{{ product.name }}<span style="margin-left: 5%;">{{ product.code }}</span></p></a>
+
+		</div>
+
+		<div class="animate-repeat" ng-if="results.length === 0">
+		      <strong>No results found...</strong>
+		</div>
+
+
+</div>
